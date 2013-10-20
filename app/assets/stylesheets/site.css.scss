@@ -1,0 +1,46 @@
+body {
+font-family: sans-serif;
+background: white;
+margin: 0;
+text-align: center;
+}
+#whole_page {
+#width: 50em;
+margin: auto;
+padding: 0;
+text-align: left;
+//border-width: 0 5px 5px 5px;
+//border-color: teal;
+//border-style: solid;
+}
+#header {
+color: white;
+background:   #382E05; /* No "ruby" defined in HTML color names! */
+font-size: 30pt;
+padding: 0.35em;
+font-family:algerian;
+margin-bottom: 0;
+}
+#nav {
+color: white;
+font-size: 12pt;
+font-weight: bold;
+background:  #996600;
+padding: 0.5em;
+}
+#nav a, nav a:visited {
+color: maroon;
+text-decoration: none;
+}
+#nav a:hover {
+border-bottom: 2px  maroon;
+}
+content {
+height: 100%;
+background: white;
+padding: 1em;
+}
+content h1 {
+font-size: 18pt;
+
+}
